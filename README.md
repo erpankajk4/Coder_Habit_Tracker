@@ -75,7 +75,7 @@
  ┗ 📜README.md<br>
 
 ## Credits
-This project was developed by [Your Name] as a coding exercise. It is not intended for production use.
+This project was developed by PANKAJ KUMAR as a coding exercise. It is not intended for production use.
 
 ## License
 This project is licensed under the MIT License. Feel free to use and modify the code as you see fit.
