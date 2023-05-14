@@ -1,0 +1,35 @@
+<!-- Register View -->
+<div class="row mt-5">
+  <div class="col-md-6 slogan">
+    Become a habit-taking pro and unlock your full potential.
+  </div>
+  
+  <div class="col-md-4 m-auto">
+    <div class="card card-body text-center">
+      <h1 style="color: rgb(209, 0, 0);">Coder Habit Tracker
+        <br />
+        <i class="bi bi-calendar2-heart"></i>
+      </h1>
+      <h3 class="text-center mb-3">
+        <i class="bi bi-person-fill-add" style="font-size: larger;"> </i> Sign Up
+      </h3>
+      <%- include ("./partials/messages") %>
+      <form action="/users/register" method="POST">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="name" id="name" required name="name" class="form-control" placeholder="Enter Your Name"
+            value="<%= typeof name != 'undefined' ? name : '' %>" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email ID</label>
+          <input type="email" id="email" name="email" required class="form-control" placeholder="Enter Your Email ID"
+            value="<%= typeof email != 'undefined' ? email : '' %>" />
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">
+          Sign Up
+        </button>
+      </form>
+      <p class="lead mt-4">Returning User? <a href="/users/login">Login</a></p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+{
+  "name": "coder-habit-tracker",
+  "version": "1.0.0",
+  "description": "Efficiently manage daily and weekly habits with a user-friendly habit tracking app built on Node.js and an intuitive EJS interface. Track progress towards goals and cultivate positive habits.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pankaj",
+  "license": "ISC",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "dotenv": "^8.6.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.1",
+    "git": "^0.1.5",
+    "mongoose": "^5.9.25"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
