@@ -41,7 +41,7 @@
 
 ## Folder Structure
 📦coder-habit-tracker<br>
- ┣ 📂DEMO<br> ----> Some screenshoots of project
+ ┣ 📂DEMO ----> Some screenshoots of project<br>
  ┣ 📂assets<br>
  ┃ ┗ 📂css<br>
  ┃ ┃ ┣ 📜habit.jpg<br>
