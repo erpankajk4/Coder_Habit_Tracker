@@ -41,12 +41,12 @@
 #### The Server should now be running at http://localhost:8000/
 
 ## Folder Structure
-📦coder-habit-tracker
- ┣ 📂assets
- ┃ ┗ 📂css
- ┃ ┃ ┣ 📜habit.jpg
- ┃ ┃ ┗ 📜styles.css
- ┣ 📂config
+📦coder-habit-tracker<br>
+ ┣ 📂assets<br>
+ ┃ ┗ 📂css<br>
+ ┃ ┃ ┣ 📜habit.jpg<br>
+ ┃ ┃ ┗ 📜styles.css<br>
+ ┣ 📂config<br>
  ┃ ┗ 📜mongoose.js
  ┣ 📂controllers
  ┃ ┣ 📜dashboard_controller.js
